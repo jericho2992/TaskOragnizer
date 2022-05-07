@@ -282,7 +282,7 @@ class TaskBin{
         this.bucket.splice(i, 1);
       }
     });
-    this.renderBucket();
+    this.renderBucket(this.location);
   }
 }
 
